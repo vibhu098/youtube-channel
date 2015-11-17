@@ -1,0 +1,5 @@
+h4 Videos
+each item in items
+	a(href="http://www.youtube.com/embed/"+item.snippet.resourceId.videoId+"?autoplay=1" data-videoid=item.snippet.resourceId.videoId class="video_link")
+		.thumbnail(style="background-image:url("+item.snippet.thumbnails.default.url+")")
+		h6=item.snippet.title

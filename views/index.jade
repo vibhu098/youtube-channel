@@ -1,0 +1,20 @@
+extends layout
+
+block content
+	div(class="header clearfix")
+		h2 YOUTUBE
+		button(id="authorize-button" style="visibility: hidden") Sign In
+	div(class="login-alert")
+		h2 Please Login To Continue
+	div(class="content clearfix hidden")
+		div(id="user-info" class="pull-left")
+		div(class="youtube-channel pull-left")
+			input(name="channel" type="text" class="channel_name" placeholder="Enter the channel name to search")
+			button(name="search" class="search") Search
+	div(class="channel_list")
+	div(id="video-container")
+	div(class="button-container hidden")
+		button(id="prev-button" class="paging-button") Previous Page
+		button(id="next-button" class="paging-button") Next Page
+	div(id="video-play")
+		iframe(frameborder="0" marginwidth="0" marginheight="0" allowfullscreen)

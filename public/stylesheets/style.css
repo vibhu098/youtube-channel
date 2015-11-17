@@ -1,0 +1,133 @@
+body {
+margin:0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-height: 600px;
+  min-width: 1120px;
+}
+.header{
+	width:100%;
+}
+.clearfix:after{
+content:'';
+display: block;
+clear: both;
+}
+.hidden{
+	display:none;
+}
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float:right;
+}
+.header h2{
+	width: 500px;
+	float: left;
+}
+#authorize-button{
+	padding:10px 5px;
+	font-size: 12px;
+	background: #eaeaea;
+	margin:10px;
+	border:1px solid #cbcbcb;
+	text-transform: uppercase;
+	float:right;
+}
+.content{
+	width:100%;
+	height:100%;
+}
+#user-info{
+	width:30%;
+	min-height: 100px
+}
+.youtube-channel{
+	width:70%;
+	padding: 40px 0;
+}
+.channel_name{
+	width: 60%;
+    padding: 10px;
+}
+.search{
+	padding: 12px;
+    margin-left: 10px
+}
+a {
+  color: #00B7FF;
+}
+.channel_detail{
+	width: 150px;
+    height: 80px;
+    display: inline-block;
+    color: black;
+    border: 1px solid #eaeaea;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    margin:10px 5px;
+    overflow: hidden;
+}
+.channel_detail.selected{
+	 border: 2px solid #310092;
+}
+.video_link{
+	width: 150px;
+    height: 150px;
+    display: inline-block;
+    color: black;
+    border: 1px solid #eaeaea;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    margin:10px 5px;
+    overflow: hidden;
+}
+.video_link h6{
+	margin: 0;
+    padding: 10px 5px 0;
+    text-align: left;
+}
+#video-container{
+	width:800px;
+	margin:auto;
+	text-align: center;
+    padding: 10px 5px;
+}
+.channel_detail h4{
+	padding:10px 0 5px;
+	margin:0px;
+}
+.channel_detail p{
+	padding:0;
+	font-size: 10px;
+	color:#7f7f7f;
+	 margin: 5px 0;
+    line-height: 1.5;
+}
+.channel_list{
+	width: 100%;
+    text-align: center;
+}
+.thumbnail{
+	width: 100%;
+    height: 95px;
+    background-size: cover;
+}
+.ui-dialog-titlebar { display:none;}
+.ui-dialog .ui-dialog-content{padding:0;}
+.button-container{
+	width: 300px;
+    margin: 10px auto;
+    text-align: center;
+}
+.paging-button{
+	visibility: visible;
+    padding: 10px;
+    border: 1px solid #7323dc;
+    background: #7323dc;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 10px
+}
